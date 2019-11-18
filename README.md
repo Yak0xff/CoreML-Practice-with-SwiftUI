@@ -4,7 +4,7 @@
 
 This is a CoreML Practice with SwiftUI. Pretrained Models from [Apple CoreML Models](https://developer.apple.com/machine-learning/models/). 
 
-![](apple-models.png)
+![](./apple-machine-learning-models.png)
 
 ## Included Demos
 

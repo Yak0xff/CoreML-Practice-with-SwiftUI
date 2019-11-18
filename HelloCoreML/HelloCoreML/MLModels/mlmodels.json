@@ -1,0 +1,92 @@
+[
+    {
+        "name": "FCRN-DepthPrediction",
+        "category": "Images",
+        "subtitle": "Depth Estimation",
+        "desc": "Predict the depth from a single image.",
+        "id": 1001,
+        "cover": "DepthPrediction_2x.png",
+        "support": 1
+    },
+    {
+        "name": "MNIST",
+        "category": "Images",
+        "subtitle": "Drawing Classification",
+        "desc": "Classify a single handwritten digit (supports digits 0-9).",
+        "id": 1002,
+        "cover": "ImageClassification4_2x.png",
+        "support": 1
+    },
+    {
+        "name": "DrawingClassifier",
+        "category": "Images",
+        "subtitle": "Drawing Classification",
+        "desc": "Drawing classifier that learns to recognize new drawings based on a K-Nearest Neighbors model (KNN).",
+        "id": 1003,
+        "cover": "DrawingClassification1_2x.png",
+        "support": 0
+    },
+    {
+        "name": "MobileNetV2",
+        "category": "Images",
+        "subtitle": "Image Classification",
+        "desc": "The MobileNetv2 architecture trained to classify the dominant object in a camera frame or image.",
+        "id": 1004,
+        "cover": "ImageClassification3_2x.png",
+        "support": 1
+    },
+    {
+        "name": "Resnet50",
+        "category": "Images",
+        "subtitle": "Image Classification",
+        "desc": "A Residual Neural Network that will classify the dominant object in a camera frame or image.",
+        "id": 1005,
+        "cover": "ImageClassification1_2x.png",
+        "support": 1
+    },
+    {
+        "name": "SqueezeNet",
+        "category": "Images",
+        "subtitle": "Image Classification",
+        "desc": "A small Deep Neural Network architecture that classifies the dominant object in a camera frame or image.",
+        "id": 1006,
+        "cover": "ImageClassification2_2x.png",
+        "support": 1
+    },
+    {
+        "name": "DeeplabV3",
+        "category": "Images",
+        "subtitle": "Image Segmentation",
+        "desc": "Segment the pixels of a camera frame or image into a predefined set of classes.",
+        "id": 1007,
+        "cover": "Segmentation_2x.png",
+        "support": 0
+    },
+    {
+        "name": "YOLOv3",
+        "category": "Images",
+        "subtitle": "Object Detection",
+        "desc": "Locate and classify 80 different types of objects present in a camera frame or image.",
+        "id": 1008,
+        "cover": "ObjectDetectionRealTime2_2x.png",
+        "support": 1
+    },
+    {
+        "name": "YOLOv3-Tiny",
+        "category": "Images",
+        "subtitle": "Object Detection",
+        "desc": "Locate and classify 80 different types of objects present in a camera frame or image.",
+        "id": 1009,
+        "cover": "ObjectDetectionRealTime1_2x.png",
+        "support": 0
+    },
+    {
+        "name": "BERT-SQuAD",
+        "category": "Text",
+        "subtitle": "Question Answering",
+        "desc": "Find answers to questions about paragraphs of text.",
+        "id": 1001,
+        "cover": "AnsweringText_2x.png",
+        "support": 0
+    },
+]

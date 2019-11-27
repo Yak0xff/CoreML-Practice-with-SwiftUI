@@ -11,22 +11,17 @@ import Vision
 import SwiftUI
 
 final class VisionObjectRecognitionViewController: ViewController {
+    var objectDetectionModel: MLModel = YOLOv3().model
     
     private var detectionOverlay: CALayer! = nil
     
     // Vision parts
     private var requests = [VNRequest]()
     
-    @discardableResult
-    func setupVision() -> NSError? {
+    func setupVision(){
         // Setup Vision parts
-        let error: NSError! = nil
-        
-        guard let modelURL = Bundle.main.url(forResource: "YOLOv3", withExtension: "mlmodelc") else {
-            return NSError(domain: "VisionObjectRecognitionViewController", code: -1, userInfo: [NSLocalizedDescriptionKey: "Model file is missing"])
-        }
         do {
-            let visionModel = try VNCoreMLModel(for: MLModel(contentsOf: modelURL))
+            let visionModel = try VNCoreMLModel(for: objectDetectionModel)
             let objectRecognition = VNCoreMLRequest(model: visionModel, completionHandler: { (request, error) in
                 DispatchQueue.main.async(execute: {
                     // perform all the UI updates on the main queue
@@ -39,8 +34,6 @@ final class VisionObjectRecognitionViewController: ViewController {
         } catch let error as NSError {
             print("Model loading went wrong: \(error)")
         }
-        
-        return error
     }
     
     func drawVisionRequestResults(_ results: [Any]) {
@@ -161,12 +154,12 @@ final class VisionObjectRecognitionViewController: ViewController {
 
 extension VisionObjectRecognitionViewController: UIViewControllerRepresentable {
      public typealias UIViewControllerType = VisionObjectRecognitionViewController
-       
-       func makeUIViewController(context: UIViewControllerRepresentableContext<VisionObjectRecognitionViewController>) -> VisionObjectRecognitionViewController.UIViewControllerType {
-           return VisionObjectRecognitionViewController()
-       }
-       
-       func updateUIViewController(_ uiViewController: VisionObjectRecognitionViewController, context: UIViewControllerRepresentableContext<VisionObjectRecognitionViewController>) {
-           
-       }
+    
+    func makeUIViewController(context: UIViewControllerRepresentableContext<VisionObjectRecognitionViewController>) -> VisionObjectRecognitionViewController.UIViewControllerType {
+        return VisionObjectRecognitionViewController()
+    }
+    
+    func updateUIViewController(_ uiViewController: VisionObjectRecognitionViewController, context: UIViewControllerRepresentableContext<VisionObjectRecognitionViewController>) {
+    
+    }
 }

@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-
 struct MLMetaModel: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
@@ -22,6 +21,7 @@ struct MLMetaModel: Hashable, Codable, Identifiable {
     enum Category: String, CaseIterable, Codable, Hashable {
         case Images = "Images"
         case Text = "Text"
+        case ArtStyles = "ArtStyles"
     }
 }
 

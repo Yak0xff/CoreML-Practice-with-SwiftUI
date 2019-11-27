@@ -53,18 +53,3 @@ class HeatmapView: UIView {
         
     }
 }
-
-
-//struct HeatmapContentView: UIViewRepresentable {
-//    typealias UIViewType = HeatmapView
-//
-//    @Binding var heatmap: Array<Array<Double>>?
-//
-//    func makeUIView(context: UIViewRepresentableContext<HeatmapContentView>) -> HeatmapContentView.UIViewType {
-//        return HeatmapView()
-//    }
-//
-//    func updateUIView(_ uiView: HeatmapContentView.UIViewType, context: UIViewRepresentableContext<HeatmapContentView>) {
-//        uiView.heatmap = heatmap
-//    }
-//}

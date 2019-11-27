@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003A68BA238EB24F0045A550 /* ArtStyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003A68B9238EB24F0045A550 /* ArtStyle.jpg */; };
 		0098547A237DA73D0020E959 /* DepthPrediction_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00985479237DA73D0020E959 /* DepthPrediction_2x.png */; };
 		00985484237DA9470020E959 /* ImageClassification3_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098547B237DA9470020E959 /* ImageClassification3_2x.png */; };
 		00985485237DA9470020E959 /* ImageClassification1_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0098547C237DA9470020E959 /* ImageClassification1_2x.png */; };
@@ -49,9 +50,29 @@
 		00F80521237D8196007C27C6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8051A237D8196007C27C6 /* CircleImage.swift */; };
 		00F8052E237D956A007C27C6 /* mlmodels.json in Resources */ = {isa = PBXBuildFile; fileRef = 00F8052D237D956A007C27C6 /* mlmodels.json */; };
 		00F80531237D987F007C27C6 /* MLMetaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F80530237D987F007C27C6 /* MLMetaModel.swift */; };
+		00FC24B5238E45AA007B4E7A /* FNS-La-Muse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24AF238E45AA007B4E7A /* FNS-La-Muse.mlmodel */; };
+		00FC24B6238E45AA007B4E7A /* FNS-Candy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24B0238E45AA007B4E7A /* FNS-Candy.mlmodel */; };
+		00FC24B7238E45AA007B4E7A /* FNS-Udnie.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24B1238E45AA007B4E7A /* FNS-Udnie.mlmodel */; };
+		00FC24B8238E45AA007B4E7A /* FNS-Feathers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24B2238E45AA007B4E7A /* FNS-Feathers.mlmodel */; };
+		00FC24B9238E45AA007B4E7A /* FNS-Mosaic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24B3238E45AA007B4E7A /* FNS-Mosaic.mlmodel */; };
+		00FC24BA238E45AA007B4E7A /* FNS-The-Scream.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24B4238E45AA007B4E7A /* FNS-The-Scream.mlmodel */; };
+		00FC24BC238E45D8007B4E7A /* ArtStylesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24BB238E45D8007B4E7A /* ArtStylesModel.swift */; };
+		00FC24C6238E4CA6007B4E7A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24BE238E4CA6007B4E7A /* Math.swift */; };
+		00FC24C7238E4CA6007B4E7A /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24BF238E4CA6007B4E7A /* UIImage+CVPixelBuffer.swift */; };
+		00FC24C8238E4CA6007B4E7A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24C0238E4CA6007B4E7A /* Array.swift */; };
+		00FC24C9238E4CA6007B4E7A /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24C1238E4CA6007B4E7A /* Predictions.swift */; };
+		00FC24CA238E4CA6007B4E7A /* MultiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24C2238E4CA6007B4E7A /* MultiArray.swift */; };
+		00FC24CB238E4CA6007B4E7A /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24C3238E4CA6007B4E7A /* CVPixelBuffer+Helpers.swift */; };
+		00FC24CC238E4CA6007B4E7A /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24C4238E4CA6007B4E7A /* NonMaxSuppression.swift */; };
+		00FC24CD238E4CA6007B4E7A /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24C5238E4CA6007B4E7A /* MLMultiArray+Image.swift */; };
+		00FC24CF238E4CC8007B4E7A /* StyleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24CE238E4CC8007B4E7A /* StyleInput.swift */; };
+		00FC24D1238E4EFC007B4E7A /* ArtStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24D0238E4EFC007B4E7A /* ArtStyleView.swift */; };
+		00FC24D3238E742D007B4E7A /* ArtStylesMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC24D2238E742D007B4E7A /* ArtStylesMeta.swift */; };
+		00FC24D5238E749D007B4E7A /* styles.json in Resources */ = {isa = PBXBuildFile; fileRef = 00FC24D4238E749D007B4E7A /* styles.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003A68B9238EB24F0045A550 /* ArtStyle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ArtStyle.jpg; sourceTree = "<group>"; };
 		00985479237DA73D0020E959 /* DepthPrediction_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DepthPrediction_2x.png; sourceTree = "<group>"; };
 		0098547B237DA9470020E959 /* ImageClassification3_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageClassification3_2x.png; sourceTree = "<group>"; };
 		0098547C237DA9470020E959 /* ImageClassification1_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageClassification1_2x.png; sourceTree = "<group>"; };
@@ -96,6 +117,25 @@
 		00F8051A237D8196007C27C6 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		00F8052D237D956A007C27C6 /* mlmodels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mlmodels.json; sourceTree = "<group>"; };
 		00F80530237D987F007C27C6 /* MLMetaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLMetaModel.swift; sourceTree = "<group>"; };
+		00FC24AF238E45AA007B4E7A /* FNS-La-Muse.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-La-Muse.mlmodel"; sourceTree = "<group>"; };
+		00FC24B0238E45AA007B4E7A /* FNS-Candy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Candy.mlmodel"; sourceTree = "<group>"; };
+		00FC24B1238E45AA007B4E7A /* FNS-Udnie.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Udnie.mlmodel"; sourceTree = "<group>"; };
+		00FC24B2238E45AA007B4E7A /* FNS-Feathers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Feathers.mlmodel"; sourceTree = "<group>"; };
+		00FC24B3238E45AA007B4E7A /* FNS-Mosaic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Mosaic.mlmodel"; sourceTree = "<group>"; };
+		00FC24B4238E45AA007B4E7A /* FNS-The-Scream.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-The-Scream.mlmodel"; sourceTree = "<group>"; };
+		00FC24BB238E45D8007B4E7A /* ArtStylesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStylesModel.swift; sourceTree = "<group>"; };
+		00FC24BE238E4CA6007B4E7A /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		00FC24BF238E4CA6007B4E7A /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		00FC24C0238E4CA6007B4E7A /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		00FC24C1238E4CA6007B4E7A /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		00FC24C2238E4CA6007B4E7A /* MultiArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiArray.swift; sourceTree = "<group>"; };
+		00FC24C3238E4CA6007B4E7A /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		00FC24C4238E4CA6007B4E7A /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		00FC24C5238E4CA6007B4E7A /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		00FC24CE238E4CC8007B4E7A /* StyleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleInput.swift; sourceTree = "<group>"; };
+		00FC24D0238E4EFC007B4E7A /* ArtStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyleView.swift; sourceTree = "<group>"; };
+		00FC24D2238E742D007B4E7A /* ArtStylesMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStylesMeta.swift; sourceTree = "<group>"; };
+		00FC24D4238E749D007B4E7A /* styles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = styles.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +152,7 @@
 		00985493237DB9DE0020E959 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				00FC24AE238E455C007B4E7A /* ArtStyles */,
 				00CDEA00237E4E70003A4FA2 /* Object Detection */,
 				00CDE9F8237E4DFB003A4FA2 /* FCRN-DepthPrediction  */,
 				00985496237DBC570020E959 /* ImageClassifier */,
@@ -259,8 +300,43 @@
 				0098547D237DA9470020E959 /* ObjectDetectionRealTime1_2x.png */,
 				0098547E237DA9470020E959 /* ObjectDetectionRealTime2_2x.png */,
 				00985483237DA9470020E959 /* Segmentation_2x.png */,
+				003A68B9238EB24F0045A550 /* ArtStyle.jpg */,
 			);
 			path = MLModels;
+			sourceTree = "<group>";
+		};
+		00FC24AE238E455C007B4E7A /* ArtStyles */ = {
+			isa = PBXGroup;
+			children = (
+				00FC24B0238E45AA007B4E7A /* FNS-Candy.mlmodel */,
+				00FC24B2238E45AA007B4E7A /* FNS-Feathers.mlmodel */,
+				00FC24AF238E45AA007B4E7A /* FNS-La-Muse.mlmodel */,
+				00FC24B3238E45AA007B4E7A /* FNS-Mosaic.mlmodel */,
+				00FC24B4238E45AA007B4E7A /* FNS-The-Scream.mlmodel */,
+				00FC24B1238E45AA007B4E7A /* FNS-Udnie.mlmodel */,
+				00FC24BB238E45D8007B4E7A /* ArtStylesModel.swift */,
+				00FC24CE238E4CC8007B4E7A /* StyleInput.swift */,
+				00FC24D0238E4EFC007B4E7A /* ArtStyleView.swift */,
+				00FC24D2238E742D007B4E7A /* ArtStylesMeta.swift */,
+				00FC24D4238E749D007B4E7A /* styles.json */,
+				00FC24BD238E4CA6007B4E7A /* CoreMLHelpers */,
+			);
+			path = ArtStyles;
+			sourceTree = "<group>";
+		};
+		00FC24BD238E4CA6007B4E7A /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				00FC24BE238E4CA6007B4E7A /* Math.swift */,
+				00FC24BF238E4CA6007B4E7A /* UIImage+CVPixelBuffer.swift */,
+				00FC24C0238E4CA6007B4E7A /* Array.swift */,
+				00FC24C1238E4CA6007B4E7A /* Predictions.swift */,
+				00FC24C2238E4CA6007B4E7A /* MultiArray.swift */,
+				00FC24C3238E4CA6007B4E7A /* CVPixelBuffer+Helpers.swift */,
+				00FC24C4238E4CA6007B4E7A /* NonMaxSuppression.swift */,
+				00FC24C5238E4CA6007B4E7A /* MLMultiArray+Image.swift */,
+			);
+			path = CoreMLHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +404,9 @@
 				00F804C3237D7ABA007C27C6 /* LaunchScreen.storyboard in Resources */,
 				00985485237DA9470020E959 /* ImageClassification1_2x.png in Resources */,
 				00F804C0237D7ABA007C27C6 /* Preview Assets.xcassets in Resources */,
+				00FC24D5238E749D007B4E7A /* styles.json in Resources */,
 				0098548A237DA9480020E959 /* AnsweringText_2x.png in Resources */,
+				003A68BA238EB24F0045A550 /* ArtStyle.jpg in Resources */,
 				00985489237DA9470020E959 /* ImageClassification2_2x.png in Resources */,
 				00F804E5237D7AE0007C27C6 /* charleyrivers_feature.jpg in Resources */,
 				00F804BD237D7ABA007C27C6 /* Assets.xcassets in Resources */,
@@ -347,30 +425,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CDEA52237E9995003A4FA2 /* FCRNDepthPredictionView.swift in Sources */,
+				00FC24CB238E4CA6007B4E7A /* CVPixelBuffer+Helpers.swift in Sources */,
 				00F80531237D987F007C27C6 /* MLMetaModel.swift in Sources */,
 				00F804B7237D7AB7007C27C6 /* AppDelegate.swift in Sources */,
 				00F804B9237D7AB7007C27C6 /* SceneDelegate.swift in Sources */,
+				00FC24CA238E4CA6007B4E7A /* MultiArray.swift in Sources */,
 				00CDEA5C237FED05003A4FA2 /* MNISTClassificationModel.swift in Sources */,
+				00FC24CF238E4CC8007B4E7A /* StyleInput.swift in Sources */,
 				00CDEA6223801316003A4FA2 /* ImageClassifierView.swift in Sources */,
+				00FC24B7238E45AA007B4E7A /* FNS-Udnie.mlmodel in Sources */,
+				00FC24C7238E4CA6007B4E7A /* UIImage+CVPixelBuffer.swift in Sources */,
 				00CDEA04237E4FD0003A4FA2 /* YOLOv3.mlmodel in Sources */,
+				00FC24B5238E45AA007B4E7A /* FNS-La-Muse.mlmodel in Sources */,
 				00CDE9FA237E4E04003A4FA2 /* FCRN.mlmodel in Sources */,
 				00CDEA5E23800C7F003A4FA2 /* ImageClassificationModel.swift in Sources */,
+				00FC24C9238E4CA6007B4E7A /* Predictions.swift in Sources */,
 				00CDE9F7237E4DF7003A4FA2 /* Resnet50.mlmodel in Sources */,
 				00CDEA7023821C5E003A4FA2 /* ViewController.swift in Sources */,
 				00CDEA602380103A003A4FA2 /* ImagePicker.swift in Sources */,
 				00F804F6237D7D85007C27C6 /* CategoryRow.swift in Sources */,
 				00CDEA54237EE0C8003A4FA2 /* HeatmapView.swift in Sources */,
+				00FC24B6238E45AA007B4E7A /* FNS-Candy.mlmodel in Sources */,
 				00CDE9F5237E4D45003A4FA2 /* MobileNetV2.mlmodel in Sources */,
+				00FC24C8238E4CA6007B4E7A /* Array.swift in Sources */,
+				00FC24D1238E4EFC007B4E7A /* ArtStyleView.swift in Sources */,
 				00CDEA56237EEC88003A4FA2 /* HeatmapViewPistProcessor.swift in Sources */,
 				00F804EF237D7B0F007C27C6 /* Data.swift in Sources */,
 				00CDEA50237E8A50003A4FA2 /* LiveImageViewController.swift in Sources */,
 				00F80521237D8196007C27C6 /* CircleImage.swift in Sources */,
 				00CDEA4E237E8284003A4FA2 /* VideoCapture.swift in Sources */,
 				00985491237DB9570020E959 /* MNISTClassifier.mlmodel in Sources */,
+				00FC24C6238E4CA6007B4E7A /* Math.swift in Sources */,
 				00CDEA58237EFEB1003A4FA2 /* DrawView.swift in Sources */,
+				00FC24D3238E742D007B4E7A /* ArtStylesMeta.swift in Sources */,
+				00FC24CC238E4CA6007B4E7A /* NonMaxSuppression.swift in Sources */,
 				00CDEA7423822105003A4FA2 /* Home.swift in Sources */,
+				00FC24B9238E45AA007B4E7A /* FNS-Mosaic.mlmodel in Sources */,
+				00FC24BC238E45D8007B4E7A /* ArtStylesModel.swift in Sources */,
 				00CDEA6F23821C5E003A4FA2 /* VisionObjectRecognitionViewController.swift in Sources */,
 				00CDEA7223821CEA003A4FA2 /* ObjectDetectionView.swift in Sources */,
+				00FC24B8238E45AA007B4E7A /* FNS-Feathers.mlmodel in Sources */,
+				00FC24CD238E4CA6007B4E7A /* MLMultiArray+Image.swift in Sources */,
+				00FC24BA238E45AA007B4E7A /* FNS-The-Scream.mlmodel in Sources */,
 				00CDE9FC237E4E42003A4FA2 /* SqueezeNet.mlmodel in Sources */,
 				00CDEA5A237F0549003A4FA2 /* MNISTClassifierView.swift in Sources */,
 			);

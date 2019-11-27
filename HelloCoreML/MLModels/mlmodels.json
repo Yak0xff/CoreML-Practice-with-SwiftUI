@@ -72,15 +72,6 @@
         "support": 1
     },
     {
-        "name": "YOLOv3-Tiny",
-        "category": "Images",
-        "subtitle": "Object Detection",
-        "desc": "Locate and classify 80 different types of objects present in a camera frame or image.",
-        "id": 1009,
-        "cover": "ObjectDetectionRealTime1_2x.png",
-        "support": 0
-    },
-    {
         "name": "BERT-SQuAD",
         "category": "Text",
         "subtitle": "Question Answering",
@@ -88,5 +79,14 @@
         "id": 1001,
         "cover": "AnsweringText_2x.png",
         "support": 0
+    },
+    {
+        "name": "Neural Style Art",
+        "category": "ArtStyles",
+        "subtitle": "Neural Style Art",
+        "desc": "Use Neural Network stylize Image/Video frame to Art.",
+        "id": 1001,
+        "cover": "ArtStyle.jpg",
+        "support": 1
     },
 ]

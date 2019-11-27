@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1001,
+        "style": 4,
+        "name": "Candy",
+        "cover": "candy"
+    },
+    {
+        "id": 1002,
+        "style": 5,
+        "name": "Feathers",
+        "cover": "Feathers"
+    },
+    {
+        "id": 1003,
+        "style": 2,
+        "name": "Muse",
+        "cover": "museImg"
+    },
+    {
+        "id": 1004,
+        "style": 0,
+        "name": "Mosaic",
+        "cover": "mosaicImg"
+    },
+    {
+        "id": 1005,
+        "style": 1,
+        "name": "Scream",
+        "cover": "screamImg"
+    },
+    {
+        "id": 1006,
+        "style": 3,
+        "name": "Udnie",
+        "cover": "Udanie"
+    }
+]

@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import CoreML
 
 
 struct ObjectDetectionView: View {

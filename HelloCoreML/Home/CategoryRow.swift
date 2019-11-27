@@ -50,6 +50,13 @@ struct CategoryRow: View {
             default:
                 return AnyView(CircleImage(image: ImageStore.shared.image(name: "charleyrivers_feature.jpg")))
             }
+        }else if model.category == .ArtStyles{
+            switch model.id {
+            case 1001:
+                return AnyView(ArtStyleView())
+            default:
+                return AnyView(CircleImage(image: ImageStore.shared.image(name: "charleyrivers_feature.jpg")))
+            }
         }
         return AnyView(CircleImage(image: ImageStore.shared.image(name: "charleyrivers_feature.jpg")))
     }

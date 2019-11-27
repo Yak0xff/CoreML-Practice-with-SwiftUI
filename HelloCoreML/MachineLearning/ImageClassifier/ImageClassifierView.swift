@@ -74,7 +74,6 @@ struct ImageClassifierView: View {
 struct PlaceholdView: View {
     var body: some View {
         ZStack {
-            Color(.red)
             Image(systemName: "photo.fill")
             .resizable()
                 .aspectRatio(contentMode: .fit)
